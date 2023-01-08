@@ -1,0 +1,95 @@
+html {
+  font-size: 10px;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: grey;
+  margin-top: 2rem;
+}
+.header h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+label {
+  display: block;
+  font-size: 1rem;
+  letter-spacing: .2rem;
+  text-align: center;
+  margin-bottom: .7rem;
+}
+input {
+  width: 40rem;
+  height: 2.5rem;
+  padding: 1.8rem 1rem;  
+  outline: none;
+  border: .5px solid gray;
+  border-radius: .5rem;
+  font-size: 1.7rem;
+  color: rgb(72, 72, 72);
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 40rem;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  border-radius: .5rem;
+  box-shadow: 0rem .1rem 1rem rgba(127, 127, 127, .4);
+  text-align: center;
+}
+.d-none {
+  display: none;
+}
+.box-img {
+  margin-top: 2rem;
+  width: 40rem;
+  height: 30rem;
+}
+.icon {
+  position: relative;
+  top: -5rem;
+  width: 10rem;
+  background-color: rgb(238, 250, 251);
+  border-radius: 50%;
+  margin-bottom: -4rem;
+}
+.data h5 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: gray;
+  margin: .7rem 0;
+}
+.condition {
+  font-size: 1rem;
+  color: gray;
+  font-weight: 300;
+  letter-spacing: .07rem;
+  margin: .7rem 0;
+}
+.temp {
+  margin: 1.5rem 0;
+}
+.temp span {
+  font-size: 4rem;
+  color: rgb(77, 75, 75);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+

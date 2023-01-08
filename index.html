@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <title>Weather App</title>
+</head>
+<body>
+  <div class="header">
+    <h1>Weather App</h1>
+    <form class="form">
+      <label for="city">Enter a City name for Weather Information</label>
+      <input type="text" name="city" />
+    </form>
+  </div>
+  <div class="box d-none">
+    <img class="box-img" src="./images/north.jpeg" alt="weather image">
+    <div class="icon">
+      <img src="" alt=""/>
+    </div>
+    <div class="data">
+      <h5>City Name</h5>
+      <div class="condition">Weather Condition</div>
+      <div class="temp">
+        <span>Temp</span>
+        <span>&deg;C</span>
+      </div>
+    </div>
+  </div> 
+  <!-- Scripts -->
+  <script src="./scripts/forecast.js"></script>   
+  <script src="./scripts/app.js"></script>   
+</body>
+</html>
